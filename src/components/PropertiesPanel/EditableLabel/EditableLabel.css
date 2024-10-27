@@ -1,0 +1,35 @@
+.EditableLabel {
+  cursor: pointer;
+  display: flex;
+  column-gap: 6px;
+}
+
+.EditableLabel > div {
+  min-height: 28px;
+}
+
+.EditableLabel-Input {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  color: #f8fafc;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 0 2px;
+  background-color: #1e293b;
+  border-color: #1e293b;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  min-width: 0;
+  width: 20px;
+  height: 1.5rem;
+}
+
+.EditableLabel-Input-visible {
+  width: 48px;
+}
+
+.EditableLabel-underline {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: rgb(255, 221, 0);
+}

@@ -1,0 +1,87 @@
+.Block {
+  padding: 0 8px;
+  border-bottom: 1px solid rgb(30 41 59);
+}
+
+.Block:last-child {
+  border: 0;
+}
+
+.Overall-inputs {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.Input {
+  display: flex;
+  height: fit-content;
+  column-gap: 8px;
+  padding: 0 8px;
+}
+
+.Input > div {
+  display: flex;
+  column-gap: 3px;
+}
+
+.Input > div > input {
+  width: 50px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  color: #f8fafc;
+  font-size: 0.75rem;
+  text-align: right;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  background-color: #1e293b;
+  border-color: #1e293b;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  height: 1.5rem;
+  width: 100%;
+}
+
+.Individual-container {
+  position: relative;
+}
+
+.Container-items {
+  min-height: 11rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.Container-box {
+  padding: 0.25rem 0.75rem;
+  border: 4px solid #334155;
+  width: 11rem;
+  height: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+}
+
+.Internal-inputs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Margin-label {
+  position: absolute;
+}
+
+.Padding-label {
+  position: absolute;
+  left: 4px;
+}

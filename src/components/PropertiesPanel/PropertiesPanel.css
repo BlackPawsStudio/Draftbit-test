@@ -1,0 +1,44 @@
+.PropertiesPanel {
+  min-width: 360px;
+  background-color: #3d4b6c;
+  height: 100vh;
+}
+
+.Element-selector {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  padding: 8px;
+}
+
+.Element-selector > button {
+  border: none;
+  cursor: pointer;
+  background-color: #28334d;
+  color: white;
+}
+
+.Selected-element {
+  background-color: white!important;
+  color: black!important;
+}
+
+.Collapsible {
+  margin-bottom: 2px;
+}
+
+.Collapsible-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #28334d;
+  border: none;
+  padding: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Collapsible-content {
+  margin: 8px 0;
+}
